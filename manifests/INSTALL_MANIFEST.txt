@@ -1,0 +1,43 @@
+﻿# Installation Scripts Summary
+
+## Root
+`C:\ScripttedDevBoxes\`
+
+## Layout
+
+### scripts
+- `scripts\chocolatey\install.ps1`
+- `scripts\chocolatey\cleanup.ps1`
+- `scripts\winget\install.ps1`
+- `scripts\winget\cleanup.ps1`
+
+### launchers
+- `launchers\chocolatey\run-install.bat`
+- `launchers\chocolatey\run-cleanup.bat`
+- `launchers\winget\run-install.bat`
+- `launchers\winget\run-cleanup.bat`
+
+### docs
+- `docs\README.md`
+- `docs\QUICK_START.md`
+
+### manifests
+- `manifests\INSTALL_MANIFEST.txt`
+
+### reserved
+- `logs\`
+- `output\`
+
+## Run Commands
+
+```powershell
+& "C:\ScripttedDevBoxes\scripts\chocolatey\install.ps1"
+& "C:\ScripttedDevBoxes\scripts\chocolatey\cleanup.ps1"
+& "C:\ScripttedDevBoxes\scripts\winget\install.ps1"
+& "C:\ScripttedDevBoxes\scripts\winget\cleanup.ps1"
+```
+
+## Runtime Log Location
+
+Scripts currently log to:
+`C:\Install_logs\`
