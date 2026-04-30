@@ -12,3 +12,4 @@ Concise log of changes made by Copilot across sessions.
 - `Created` `c:\ScripttedDevBoxes\launchers\winget\run-install.bat` + `run-cleanup.bat` — batch launchers with elevation prompts for Winget scripts.
 - `Created` `c:\ScripttedDevBoxes\launchers\chocolatey\run-install.bat` + `run-cleanup.bat` — batch launchers with elevation prompts for Chocolatey scripts.
 - `Created` `c:\ScripttedDevBoxes\Copilot-Memory.md` — session history log for tracking Copilot changes across sessions.
+- `2026-04-30 13:40` `Published` `c:\ScripttedDevBoxes` to `https://github.com/preetksingh80/ScripttedDevBoxes` — created remote repo, committed 15 files (1526 insertions), pushed `main`.
